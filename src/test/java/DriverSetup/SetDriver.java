@@ -44,10 +44,6 @@ public class SetDriver {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		}
-//		else if(browser.equalsIgnoreCase("ie")) {
-//			WebDriverManager.iedriver().setup();
-//			driver = new InternetExplorerDriver();
-//		}
 		else {
 			System.out.println("Not available!! Select Chrome or firefox");
 		}

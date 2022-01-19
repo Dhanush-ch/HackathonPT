@@ -81,36 +81,7 @@ public class IdentifyBikes {
 			}
 			ExtentListeners.test.log(Status.INFO, "Bikes has been displayed");
 			
-				
 
-			// Click on Read More
-//			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[text() = 'Read More']")));
-//			WebElement readMore = driver.findElement(By.xpath("//span[text() = 'Read More']"));
-//			readMore.click();
-//
-//			// Get table elements
-//			List<WebElement> rows = driver.findElements(By.xpath("//table/tbody/tr"));
-//			int rowCount = rows.size();
-//
-//			HashMap<String, Float> map = new HashMap<String, Float>();
-//
-//			for (int i = 1; i <= rowCount; i++) {
-//
-//				String bikeName = driver.findElement(By.xpath("//table/tbody/tr[" + i + "]/td[" + 1 + "]")).getText();
-//				Float bikePrice = Float.parseFloat(driver.findElement(By.xpath("//table/tbody/tr[" + i + "]/td[" + 2 + "]"))
-//						.getText().substring(4, 8));
-//
-//				map.put(bikeName, bikePrice);
-//			}
-//
-//			for (Map.Entry m : map.entrySet()) {
-//
-//				if ((Float) (m.getValue()) < 4.00) {
-//
-//					System.out.println(m.getKey() + " - " + m.getValue() + "L");
-//
-//				}
-//			}
 			
 		}
 		catch(Exception e) {

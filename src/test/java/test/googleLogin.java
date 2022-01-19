@@ -25,27 +25,11 @@ public class googleLogin {
 
 		gLogin.gotoHomepage();
 		Thread.sleep(2000);
-		// Click Login/SignUp
-//			Set<String> s = IdentifyBikes.getDriver().getWindowHandles();
-//			Iterator<String> iterate = s.iterator();
-//			String first_window = iterate.next();
-		//
-//			System.out.println("First window ID -------" + first_window);
+		
 		gLogin.clickLogin();
 
-//			s = IdentifyBikes.getDriver().getWindowHandles();
-//			iterate = s.iterator();
-//			iterate.next();
-//			String second_window = iterate.next();
-//			System.out.println("Second Window id -------"+second_window);
-		Thread.sleep(8000);
-//			IdentifyBikes.getDriver().switchTo().activeElement();
 
-//			WebIdentifyBikes.getDriver()Wait wait = new WebIdentifyBikes.getDriver()Wait(IdentifyBikes.getDriver(), Duration.ofSeconds(10));
-//			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[normalize-space()='Continue with Google']")));
 		gLogin.usingGoogle();
-//			Actions action = new Actions(IdentifyBikes.getDriver());
-//			action.click(IdentifyBikes.getDriver().findElement(By.xpath("(//span[text() = 'Continue with Google'])[1]"))).perform();
 
 	}
 
