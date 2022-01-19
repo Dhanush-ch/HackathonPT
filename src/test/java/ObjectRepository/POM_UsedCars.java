@@ -13,7 +13,7 @@ public class POM_UsedCars {
 	
 	By zigwheels = By.xpath("//img[@alt='ZigWheels - New Cars, Used Cars, Bikes Prices, News, Reviews, QnA']");
 	By usedcars = By.xpath("//a[normalize-space()='Used Cars']");
-	By city = By.xpath("//a[@title='Chennai']");
+	public By city = By.xpath("//a[@title='Chennai']");
 	public By popularModelsList = By.xpath("//div[@class='gsc_thin_scroll']");
 	
 	
